@@ -20,7 +20,12 @@ The dataset consists of 65,798 anonymized records split into training and testin
 - **Random Forest and Decision Trees:** Used for predicting metastases sites and tumor sizes.
 - **K-Means Clustering and PCA:** Applied in the unsupervised analysis to identify patterns and trends in the data.
 - **Preprocessing Techniques:** Data cleaning, normalization, and transformation to prepare for model training.
-- 
+
+## Results
+The models' performance is evaluated using:
+- **Micro and Macro F1 scores** for metastases prediction.
+- **Mean Squared Error** for tumor size estimation.
+  
 ## Output Files
 - `1.csv`: Contains predictions for the location of metastases as per Part 1 of the challenge.
 - `2.csv`: Contains predictions for tumor size as per Part 2 of the challenge.
